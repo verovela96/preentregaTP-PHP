@@ -2,7 +2,7 @@
      margin: 0;
     }
 header{
-   background-image: url(banner-bg.jpg);
+   background-image: url(imagenes/banner-bg.jpg);
    background-size: cover;
    width: 100%;
    height: 600px;
