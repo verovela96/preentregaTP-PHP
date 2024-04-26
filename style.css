@@ -2,19 +2,36 @@
      margin: 0;
     }
 header{
-   background-image: url(imagenes/banner-bg.jpg);
-   background-size: cover;
-   width: 100%;
-   height: 600px;
-    background-color: brown;
+        height: 15vh;
+        position:sticky;
+        top:0; 
+        z-index: 10;
+        background-color: brown;
+}
+nav{
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display:flex;
+    column-gap: 20px;
 }
 main {
-    background-color: gray;
-}
-section {
+    background-color: gray;   
+}   
+    
+.sectionTitulos{
+    background-image:url(imagenes/banner-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
     text-align: center
 }
 footer  {
+    text-align: center;
     color: white;
     background-color: brown;
 }
